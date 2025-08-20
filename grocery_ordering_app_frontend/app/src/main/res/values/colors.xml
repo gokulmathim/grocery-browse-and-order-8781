@@ -1,0 +1,10 @@
+<resources>
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryVariant">#43A047</color>
+    <color name="colorSecondary">#F5F5F5</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnSecondary">#212121</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+</resources>

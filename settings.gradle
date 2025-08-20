@@ -1,0 +1,2 @@
+rootProject.name = "grocery-browse-and-order-8781-delegator"
+includeBuild("grocery_ordering_app_frontend")
