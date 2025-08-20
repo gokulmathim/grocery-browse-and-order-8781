@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GroceryGo</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Actions -->
+    <string name="action_checkout">Checkout</string>
+    <string name="action_add_to_cart">Add to Cart</string>
+    <string name="action_sign_in">Sign In</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="action_save">Save</string>
+    <string name="action_sign_out">Sign Out</string>
+
+    <!-- Placeholders -->
+    <string name="hint_search">Search for groceries</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Display Name</string>
+    <string name="hint_address">Address</string>
+
+    <string name="orders_empty">No orders yet. Place your first order!</string>
+</resources>

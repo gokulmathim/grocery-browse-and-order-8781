@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        google()
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+// Delegate to the Android project contained in grocery_ordering_app_frontend
+// This allows running ./gradlew from repo root in CI.
+includeBuild("grocery_ordering_app_frontend")

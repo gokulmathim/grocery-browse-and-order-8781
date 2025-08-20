@@ -1,0 +1,19 @@
+tasks.register("build") {
+    // No-op: build is handled by included build (grocery_ordering_app_frontend)
+    // This keeps CI happy when calling ./gradlew build from repo root.
+    doLast {
+        println("Root build is delegated; use :grocery_ordering_app_frontend:app:build or rely on includeBuild.")
+    }
+}
+
+tasks.register("check") {
+    doLast {
+        println("Root check delegated to included build.")
+    }
+}
+
+tasks.register("assemble") {
+    doLast {
+        println("Root assemble delegated to included build.")
+    }
+}

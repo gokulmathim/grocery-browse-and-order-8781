@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="12dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/cart_item_name"
+        android:textStyle="bold"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/cart_item_price"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/cart_item_name"
+        android:layout_marginTop="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/cart_qty_minus"
+            android:src="@android:drawable/ic_media_previous"
+            android:background="@android:color/transparent"
+            android:contentDescription="minus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <EditText
+            android:id="@+id/cart_item_qty"
+            android:inputType="number"
+            android:enabled="false"
+            android:text="1"
+            android:gravity="center"
+            android:layout_width="48dp"
+            android:layout_height="40dp"/>
+
+        <ImageButton
+            android:id="@+id/cart_qty_plus"
+            android:src="@android:drawable/ic_media_next"
+            android:background="@android:color/transparent"
+            android:contentDescription="plus"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <ImageButton
+            android:id="@+id/cart_item_remove"
+            android:src="@android:drawable/ic_delete"
+            android:background="@android:color/transparent"
+            android:contentDescription="remove"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+</RelativeLayout>
